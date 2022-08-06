@@ -1,5 +1,7 @@
 # shift + insert 	to paste command in gitbash
 # clear 		to clear all commanf
+# ls 			show all files of wurrent folder
+# touch waste.html	create empty file name waste.html
 
 git config --global user.name DrBilal	# to set name
 git config --global user.name		# to check name
