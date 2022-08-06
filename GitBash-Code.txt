@@ -7,9 +7,9 @@ git config --global user.name		# to check name
 git config --global user.email drbilal216@gmail.com	# to set email
 git config --global user.name				# to see email
 
-git init	# initialize repository
-ls -lart	# show all hidden file folders
-git status	# show files untrack, Unmodified, Modified Staged
+git init			# initialize repository
+ls -lart			# show all hidden file folders
+git status			# show files untrack, Unmodified, Modified Staged
 
 git add GitBash-Code.txt	# staging area (add only 1 mentioned file)
 git status			# now its shows file is staged and ready to commit
@@ -24,6 +24,7 @@ git commit -m["Second commit"]	# better way to commit without vim editor
 
 git checkout abc.html		# Restore selected file back to previous commit
 				 (if something wrong is updated)
+				 Very usefull command
 
 git checkout -f			# Restore all file back to previous commit
 
@@ -36,7 +37,20 @@ git diff -- staged		# compare staging area with last commit
 
 git commit -a -m "Commit here"	# stage and commit (Not recomended for advance user)
 
-ls 				show all files of wurrent folder
-touch waste.html		create empty file name waste.html
-git rm --cached waste.html	remove from staging area not from directory
-git rm waste.html		remove from working directory and staging area of git
+ls 				# show all files of wurrent folder
+touch waste.html		# create empty file name waste.html
+git rm --cached waste.html	# remove from staging area not from directory
+git rm waste.html		# remove from working directory and staging area of git
+
+git status -s			# small status
+
+touch .gitignore		# create file .gitignore
+
+touch mylogs.log		# created file
+
+# mylogs.log			# open .gitignore from notepad++
+				# mention the file name you want to ignore
+				# mylogs.log
+
+
+
