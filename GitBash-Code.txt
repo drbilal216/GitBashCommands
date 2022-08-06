@@ -1,7 +1,5 @@
-# shift + insert 	to paste command in gitbash
-# clear 		to clear all commanf
-# ls 			show all files of wurrent folder
-# touch waste.html	create empty file name waste.html
+# shift + insert 		to paste command in gitbash
+# clear 			to clear all commanf
 
 git config --global user.name DrBilal	# to set name
 git config --global user.name		# to check name
@@ -37,3 +35,8 @@ git diff			# compare working tree with staging area
 git diff -- staged		# compare staging area with last commit
 
 git commit -a -m "Commit here"	# stage and commit (Not recomended for advance user)
+
+ls 				show all files of wurrent folder
+touch waste.html		create empty file name waste.html
+git rm --cached waste.html	remove from staging area not from directory
+git rm waste.html		remove from working directory and staging area of git
