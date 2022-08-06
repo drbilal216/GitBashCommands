@@ -10,4 +10,13 @@ git init	# initialize repository
 ls -lart	# show all hidden file folders
 git status	# show files untrack, Unmodified, Modified Staged
 
-git add GitBash-Code.txt	# staging area 
+git add GitBash-Code.txt	# staging area (add only 1 mentioned file)
+git status			# now its shows file is staged and ready to comment
+git commit			# open vim editter, press i and type your commit
+				# then press esc, then type :wd to exit editor
+
+touch abc.html			# touch command is use to create blank files
+
+git add -A			# add all file to stagind area
+
+git commit -m["Second commit"]	# better way to commit without vim editor
