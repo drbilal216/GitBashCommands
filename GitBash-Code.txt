@@ -31,3 +31,7 @@ git log				# show all commit
 				# press q to quit
 git log -p -3			# show 3 last commit also chow changes
 
+git diff			# compare working tree with staging area
+git diff -- staged		# compare staging area with last commit
+
+git commit -a -m "Commit here"	# stage and commit (Not recomended at advance user)
