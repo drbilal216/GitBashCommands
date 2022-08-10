@@ -63,3 +63,21 @@ git checkout master		# Switched back to master branch
 git merge feature1		# feature1 branch changes added to master branch
 git checkout -b feature2	# Create a branch name feature2 and Switched to that branch
 
+
+				# Create repositry in github
+				# then connect to you local repository
+
+git remote add origin https://github.com/drbilal216/GitBashCommands.git
+
+git remote			# show all remote (origin)
+git remote -v			# show url of fetch and push
+
+git push origin master		# push local master to origin(Github)
+git push -u origin master	# to push master branch
+git push -u origin feature	# to push feature branch
+
+git remote set-url origin https://github.com/drbilal216/GitBashCommands.git
+				# if you want to change url
+
+git clone https://github.com/drbilal216/GitBashCommands.git folderName
+				# if you want to clone this repository
