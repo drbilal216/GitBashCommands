@@ -51,10 +51,10 @@ touch mylogs.log		# created file
 # mylogs.log			# open .gitignore from notepad++
 				# mention the file name you want to ignore
 				# mylogs.log (ignore this file)
-				# /mylogs.log (working folder me is file ko ignore kare, child me nahe)
-				# *mylogs.log (sare is name ke file ignore kare)
-				# *m.log (sare log file ignore kare)
+				# /mylogs.log (ignore this file in working folder not in child)
+				# *mylogs.log (ignore all file name mylogs.log)
+				# *.log (ignore all log file)
+				# foldername/ (ignore this folder)
 
-44.00	https://www.youtube.com/watch?v=gwWKnnCMQ5c&t=10s
 
 
