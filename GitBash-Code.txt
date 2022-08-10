@@ -60,9 +60,6 @@ git branch feature1		# create a branch name feature1 (branch is a copy)
 git branch			# show all available branches
 git checkout feature1		# Switched to branch feature1
 git checkout master		# Switched back to master branch
-<<<<<<< HEAD
 git merge feature1		# feature1 branch changes added to master branch
-=======
-
->>>>>>> feature1
+git checkout -b feature2	# Create a branch name feature2 and Switched to that branch
 
