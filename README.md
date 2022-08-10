@@ -1,5 +1,5 @@
 # shift + insert 		to paste command in gitbash
-# clear 			to clear all commanf
+# clear 			to clear all command
 
 git config --global user.name DrBilal	# to set name
 git config --global user.name		# to check name
